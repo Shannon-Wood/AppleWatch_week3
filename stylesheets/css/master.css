@@ -59,3 +59,8 @@ header ul li:hover{
 header ul li:first-child{
   font-size: 1.4em;
 }
+
+
+svg:hover path {
+    fill: #b8b8b8;
+}
