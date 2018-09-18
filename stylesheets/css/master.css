@@ -1,8 +1,5 @@
 /*  MASTER CSS FILE for APPLE WATCH */
-/* body{
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
 
-} */
 
 @font-face {
   font-family: "appleFont";
@@ -20,7 +17,6 @@ header div{
   background-color: #333;
 }
 
-
 header ul{
   width: 1075px;
   height: auto;
@@ -28,8 +24,6 @@ header ul{
 
   background-color: #f00;
 }
-
-
 
 header ul li{
   width: 10%;
@@ -47,20 +41,27 @@ header ul li{
   transition: .2s;
 }
 
-
-
 header ul li:hover{
   transition: .2s;
   color: #b8b8b8;
 }
 
-
-
 header ul li:first-child{
   font-size: 1.4em;
 }
 
-
 svg:hover path {
     fill: #b8b8b8;
+}
+/****** THE END OF THE NAV BAR   *******  */
+
+
+
+/******   BEGINNING OF THE ICON BAR  *********/
+
+#iconBar{
+  width: 100vw;
+  height: 135px;
+
+  background-color: #f00;
 }
