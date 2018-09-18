@@ -22,7 +22,7 @@ header div{
 
 
 header ul{
-  width: 1000px;
+  width: 1075px;
   height: auto;
   margin: 0 auto;
 
@@ -57,5 +57,5 @@ header ul li:hover{
 
 
 header ul li:first-child{
-  font-size: 1.35em;
+  font-size: 1.4em;
 }
