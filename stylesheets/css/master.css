@@ -57,7 +57,7 @@ svg:hover path {
 
 .nav-wrapper{
     width: 100vw;
-    height: 160px;
+    height: 127px;
     /* background-color: #f00; */
 
     position: relative;
@@ -65,7 +65,7 @@ svg:hover path {
 
 .nav-items{
     width: 900px;
-    height: 140px;
+    height: 127px;
     /* background-color: grey; */
     margin: auto;
 }
@@ -199,4 +199,21 @@ svg:hover path {
     background-size: 71px 54px;
     background-repeat: no-repeat;
     background-image: url(../stylesheets/img/8watch_nav_compare_large.svg);
+}
+
+.top-watch{
+  width: 100vw;
+  height: 948px;
+  position: relative;
+  background-color: #fafafa;
+}
+
+.top-watch-link{
+
+  display: block;
+  margin-left: 457px;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+
 }
