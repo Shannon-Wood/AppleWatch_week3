@@ -76,9 +76,9 @@ svg:hover path {
     font-size: 0.8em;
     text-align: center;
     position: relative;
-    padding: 1px;
+    /* padding: 1px; */
     left: 75px;
-    margin-left: 14px;
+    margin-left: 16px;
     min-height: 89px;
     vertical-align: text-top;
 
@@ -91,10 +91,11 @@ svg:hover path {
     padding: 0;
     position: relative;
     z-index: 1;
+    text-decoration: none;
 }
 
 .nav-label{
-    font-size: 11px;
+    font-size: .8em;
     line-height: 1.09091;
     font-weight: 400;
     letter-spacing: .07em;
@@ -124,6 +125,9 @@ svg:hover path {
     margin: 0px  auto 6px;
 }
 
+.nav-item5{
+    padding-left: 9px;
+}
 
 
 .nav-item1 .nav-icon {
