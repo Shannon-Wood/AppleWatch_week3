@@ -11,7 +11,7 @@ body{
   font-family: 'appleFont', "Helvetica Neue", Helvetica, sans-serif;
 }
 
-header div{
+header {
   width: 100vw;
   height: 44px;
   background-color: #333;
@@ -21,8 +21,6 @@ header ul{
   width: 1075px;
   height: auto;
   margin: 0 auto;
-
-  background-color: #f00;
 }
 
 header ul li{
@@ -47,21 +45,154 @@ header ul li:hover{
 }
 
 header ul li:first-child{
-  font-size: 1.4em;
+  font-size: 1.35em;
 }
 
 svg:hover path {
     fill: #b8b8b8;
 }
-/****** THE END OF THE NAV BAR   *******  */
+
+/*****************   BEGINNING OF THE ICON BAR  *******************/
 
 
-
-/******   BEGINNING OF THE ICON BAR  *********/
-
-#iconBar{
+.nav-wrapper{
   width: 100vw;
-  height: 135px;
+  height: 160px;
+  /* background-color: #f00; */
 
-  background-color: #f00;
+  position: relative;
+}
+
+.nav-items{
+  width: 900px;
+  height: 140px;
+  /* background-color: grey; */
+  margin: 0 auto;
+}
+
+.nav-items li{
+  display: inline-block;
+  width: 8%;
+  font-size: 0.8em;
+  text-align: center;
+  position: relative;
+  padding: 10px;
+  left: 20px;
+  margin-left: 10px;
+
+}
+
+.nav-link{
+    color: #111;
+    display: block;
+    margin-top: 3px;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-label{
+  font-size: 11px;
+    line-height: 1.09091;
+    font-weight: 400;
+    letter-spacing: -.008em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    margin: 0;
+    white-space: normal;
+    max-width: 7em;
+    line-height: 1.2
+}
+
+.nav-new{
+  font-size: 9px;
+  line-height: 1.22226;
+  font-weight: 400;
+  letter-spacing: -.006em;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #e85d00;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+.nav-icon{
+  background: center bottom no-repeat;
+  display: block;
+  margin: 0px  auto 6px;
+}
+
+
+
+.nav-item1 .nav-icon {
+    width: 25px;
+    height: 54px;
+    background-size: 25px 54px;
+    background-repeat: no-repeat;
+    background-image: url(../stylesheets/img/1watch_nav_series_2_large.svg);
+}
+
+
+.nav-item2 .nav-icon {
+    width: 25px;
+    height: 54px;
+    background-size: 25px 54px;
+    background-repeat: no-repeat;
+    background-image: url(../stylesheets/img/2watch_nav_nike_large.svg);
+}
+
+
+.nav-item3 .nav-icon {
+    width: 37px;
+    height: 54px;
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url(../stylesheets/img/3watch_nav_hermes_large.svg);
+}
+
+
+.nav-item4 .nav-icon {
+    width: 25px;
+    height: 54px;
+    background-size: 25px 54px;
+    background-repeat: no-repeat;
+    background-image: url(../stylesheets/img/4watch_nav_edition_large.svg);
+}
+
+
+.nav-item5 .nav-icon {
+    width: 44px;
+    height: 54px;
+    background-size: 44px 54px;
+    background-repeat: no-repeat;
+    background-image: url(../stylesheets/img/5watch_nav_watch_os_large.svg);
+}
+
+
+.nav-item6 .nav-icon {
+    width: 17px;
+    height: 54px;
+    background-size: 17px 54px;
+    background-repeat: no-repeat;
+    background-image: url(../stylesheets/img/6watch_nav_bands_large.svg);
+}
+
+
+.nav-item7 .nav-icon {
+    width: 52px;
+    height: 54px;
+    background-size: 52px 54px;
+    background-repeat: no-repeat;
+    background-image: url(../stylesheets/img/7watch_nav_accessories_large.svg);
+}
+
+
+.nav-item8 .nav-icon {
+    width: 71px;
+    height: 54px;
+    background-size: 71px 54px;
+    background-repeat: no-repeat;
+    background-image: url(../stylesheets/img/8watch_nav_compare_large.svg);
 }
