@@ -344,7 +344,7 @@ display: block;
   }
 
 
-  .icon-copy{
+.tile-text-link{
     display: block;
     text-align: left;
     font-size: 1.7em;
@@ -352,3 +352,7 @@ display: block;
     color: #fff;
     text-decoration: none;
   }
+
+.tile-text-link:hover{
+  text-decoration: underline;
+}
