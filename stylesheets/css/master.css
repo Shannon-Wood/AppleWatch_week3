@@ -11,6 +11,8 @@ body{
     font-family: 'appleFont', "Helvetica Neue", Helvetica, sans-serif;
 }
 
+/* ***  TOP NAVIGATION BAR  *** */
+
 header {
     width: 100vw;
     height: 44px;
@@ -201,6 +203,8 @@ svg:hover path {
     background-image: url(../stylesheets/img/8watch_nav_compare_large.svg);
 }
 
+/* *** BIG WATCH IMG *** */
+
 .top-watch{
   width: 100vw;
   height: 948px;
@@ -217,14 +221,12 @@ svg:hover path {
 }
 
 
-
 /*   *****  Series 4 Logo and Links  ****** */
 
 .series4-wrapper{
     width: 100vw;
     height: 532.19px;
     /* background-color: #f00; */
-
 }
 
 .series4-logo{
@@ -237,7 +239,6 @@ svg:hover path {
     background-size: 275px 106px;
     margin: auto;
     margin-right: 577px;
-
 }
 
 .series4-avail{
@@ -246,7 +247,6 @@ svg:hover path {
   font-weight: 400;
   font-size: 1.4em;
   margin-top: 33px;
-
 }
 
 .seriesLinks{
@@ -276,9 +276,8 @@ svg:hover path {
   width: 100vw;
   height: auto;
   background-color: red;
-
-
 }
+
 
 .tiles-ul{
 margin-left: 30px;
@@ -296,8 +295,8 @@ display: block;
   background-repeat: no-repeat;
   float: left;
   display: block;
-
 }
+
 
   .tile-workout{
     width: 690px;
@@ -308,8 +307,8 @@ display: block;
     background-repeat: no-repeat;
     float: left;
     display: block;
+}
 
-  }
 
   .tile-activity{
     width: 690px;
@@ -321,6 +320,7 @@ display: block;
     float: left;
   }
 
+
   .tile-connect{
     width: 690px;
     height: 690px;
@@ -329,7 +329,7 @@ display: block;
     width: 50%;
     background-repeat: no-repeat;
     float: left;
-  }
+}
 
 
 .tile-headline {
@@ -341,7 +341,7 @@ display: block;
     margin-block-end: 0.83em;
     font-weight: bold;
     color: #fff;
-  }
+}
 
 
 .tile-text-link{
@@ -351,7 +351,7 @@ display: block;
     margin-left: 105px;
     color: #fff;
     text-decoration: none;
-  }
+}
 
 .tile-text-link:hover{
   text-decoration: underline;
